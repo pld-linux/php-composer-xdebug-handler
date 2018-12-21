@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	Restarts a process without xdebug
 Name:		php-composer-%{pkgname}
-Version:	1.3.0
+Version:	1.3.1
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/composer/xdebug-handler/archive/%{version}/%{pkgname}-%{version}.tar.gz
-# Source0-md5:	c34c243322d141277cc0d86357b89ed2
+# Source0-md5:	8d9e5ad41b981c2798e79b6e3fdf0cea
 URL:		https://github.com/composer/xdebug-handler
 Requires:	php(core) >= %{php_min_version}
 Requires:	php-psr-log >= 1.0
