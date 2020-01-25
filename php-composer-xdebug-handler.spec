@@ -1,6 +1,5 @@
 %define		php_min_version 5.3.2
 %define		pkgname	xdebug-handler
-%include	/usr/lib/rpm/macros.php
 Summary:	Restarts a process without xdebug
 Name:		php-composer-%{pkgname}
 Version:	1.3.2
