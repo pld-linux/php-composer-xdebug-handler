@@ -2,12 +2,12 @@
 %define		pkgname	xdebug-handler
 Summary:	Restarts a process without xdebug
 Name:		php-composer-%{pkgname}
-Version:	1.3.2
+Version:	2.0.2
 Release:	1
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/composer/xdebug-handler/archive/%{version}/%{pkgname}-%{version}.tar.gz
-# Source0-md5:	c904a62cd2a813d41398897068c58d55
+# Source0-md5:	086af3eec788f6691849498c43a10591
 URL:		https://github.com/composer/xdebug-handler
 Requires:	php(core) >= %{php_min_version}
 Requires:	php-psr-log >= 1.0
